@@ -485,6 +485,6 @@ public class Program_Backend {
 			System.out.println("\nThông tin department thứ " + (l + 1) + " là:");
 			System.out.println("Id: " + dep1711[l].id + "\nName: " + dep1711[l].name);
 			l++;
-		} while (l < dep1611.length);
+		} while (l < dep1711.length);
 	}
 }
