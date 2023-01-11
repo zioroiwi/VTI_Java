@@ -392,6 +392,18 @@ public class Program_Backend {
 			System.out.println("ID: " + department.id + "; Name: " + department.name);
 		}
 
+		// exercise 2 question 6
+		System.out.println("\n----- Exercise 2 question 6 -------");
+		String format26 = "%-5s%-20s%-5s%-20s%-5s%-15s%-1s\n";
+		System.out.println("\n***********************************************************************");
+		System.out.printf(format26, "*", "    Email", "*", "      Tên", "*", "Phòng ban", "*");
+		System.out.println("***********************************************************************");
+		Account[] acc26 = { account1, account2, account3, account4, account5 };
+		for (Account account : acc26) {
+			System.out.printf(format26, "*", account.email, "*", account.fullName, "*", account.department.name, "*");
+			System.out.println("***********************************************************************");
+		}
+
 		// question 10
 		System.out.println("\n------ Question 10 ----------------");
 		Account[] acc1 = { account1, account2, account3, account4, account5 };
